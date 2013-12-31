@@ -1,0 +1,39 @@
+<body>	
+	
+		<!-- Header -->
+		<header>	
+
+			<div class="row">
+				<div id="logo" class="large-4 columns">
+					<a href="{{ url:base }}">
+						<h1>{{ settings:site_name }}</h1>
+					</a>
+				</div>
+			
+				<div class="large-6 columns">
+					<em>{{ settings:site_slogan }}</em>
+				</div>
+			</div>
+			
+		<!-- Navigation -->
+			<div class="row">
+				<div class="large-12 columns">
+
+					<nav class="top-bar">
+					  <ul class="title-area">					    
+					    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+					  </ul>
+
+					  <section class="top-bar-section">
+					    <ul class="right">
+					      {{ navigation:links group="header" }}
+					    </ul>
+					  </section>
+					</nav>
+
+				</div>
+			</div>
+		<!-- /Navigation -->
+
+		</header>
+		<!-- /Header -->

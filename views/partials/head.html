@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ settings:site_name }} &raquo; {{ template:title }}</title>
+
+  <meta name="author" content="tF Media">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Set a base location for assets -->
+		<base href="{{ url:base }}"/>
+	<!-- End base -->
+
+	<!-- CSS -->
+		{{ asset:css file="theme::app.css" }}
+		{{ asset:render }}
+	<!-- end CSS -->
+
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold" type="text/css" />
+
+	<!-- Favicon -->
+  	{{# theme:favicon #}}
+
+	<!-- All JavaScript at the bottom, except for Modernizr. -->
+		{{ theme:js file="modernizr.js" }}
+
+	<!-- template metadata -->
+  	{{ template:metadata }}
+
+  <!-- Google Analytics -->
+		{{ integration:analytics }}
+
+
+	<!-- Add theme option variables here -->
+
+
+
+</head>
