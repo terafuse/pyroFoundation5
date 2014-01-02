@@ -16,16 +16,17 @@
   <div class="large-12 columns">
     <!-- Section 1 Heading -->
     {{ section1_heading }}
-    <hr>
 
     <div class="row">
     <!-- Section 1 Main Content -->
       <div class="large-8 columns">
+        <hr />
         {{ section1_content }}
       </div>
     
     <!-- Section 1 Column-->
       <div class="large-4 columns">
+      <hr />
       <!-- Comment Out or Delete to Remove Placeholder Image -->
         <p><img src="http://placehold.it/325x200&amp;text=[img]"></p>
       <!--  -->
@@ -39,19 +40,21 @@
 
 <!-- Section 2 -->
 <div class="row">
-<!-- Section 2 Content -->
-  <div class="large-8 columns">
-    <hr>
-    {{ section2_content }}
-  </div>
   
   <!-- Section 2 Column -->
   <div class="large-4 columns">
-  <hr>
+  <hr />
   <!-- Comment Out or Delete to Remove Placeholder Image -->
     <p><img src="http://placehold.it/325x200&amp;text=[img]"></p>
   <!--  -->
     <p>{{ section2_image:img }}</p>
+    <div class="panel">{{ section2_col }}</div>
+  </div>
+
+  <!-- Section 2 Content -->
+  <div class="large-8 columns">
+    <hr />
+    {{ section2_content2 }}
   </div>
 
 </div>
