@@ -8,7 +8,7 @@ public $author='antiksink';
 public $author_website='none';
 public $website='none';
 public $description='A PyroCMS Basic Template built w/Zurb Foundation 5';
-public $version='1.2';
+public $version='1.5';
 }
 
 /* End of file theme.php */
