@@ -1,43 +1,58 @@
+Banner (Image) -->
 <div class="row">
-  
     <div class="large-12 columns">
-      {{ banner_image:img }}
-      <hr>
+    <!-- Comment Out or Delete to Remove Placeholder Image -->
+      <p><img src="http://placehold.it/1200x300&amp;text=[banner img]"></p>
+    <!--  -->
+      <p>{{ band_banner_image:img }}</p>
+      <hr />
     </div>
-
 </div>
+<!-- /Banner (Image) -->
 
+<!-- Section 1 -->
 <div class="row">
 
   <div class="large-12 columns">
+    <!-- Section 1 Heading -->
     {{ section1_heading }}
     <hr>
+
     <div class="row">
-    
+    <!-- Section 1 Main Content -->
       <div class="large-8 columns">
         {{ section1_content }}
       </div>
     
+    <!-- Section 1 Column-->
       <div class="large-4 columns">
-        {{ section1_image:img }}
+      <!-- Comment Out or Delete to Remove Placeholder Image -->
+        <p><img src="http://placehold.it/325x200&amp;text=[img]"></p>
+      <!--  -->
+        <p>{{ section1_image:img }}</p>
         {{ section1_col }}
       </div>
     </div>
   </div>
-
-
 </div>
+<!-- /Section 1 -->
 
+<!-- Section 2 -->
 <div class="row">
-
+<!-- Section 2 Content -->
   <div class="large-8 columns">
     <hr>
-    {{ section2_content2 }}
+    {{ section2_content }}
   </div>
   
+  <!-- Section 2 Column -->
   <div class="large-4 columns">
   <hr>
-    {{ section2_image:img }}
+  <!-- Comment Out or Delete to Remove Placeholder Image -->
+    <p><img src="http://placehold.it/325x200&amp;text=[img]"></p>
+  <!--  -->
+    <p>{{ section2_image:img }}</p>
   </div>
 
 </div>
+<!-- /Section 2
