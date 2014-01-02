@@ -63,9 +63,9 @@ bower update
 
 ## Instructions: PyroCMS Theme  
 
-1. Follow the _Quikstart_ from the _Foundation 5 README_ 
- - go to theme directory, run 'bower update' 
- - use 'compass compile' or 'compass watch' to compile changes 
+* Follow the _Quikstart_ from the _Foundation 5 README_ 
+ - go to theme directory, run `bower install` on first run and `bower update` to update. 
+ - Use `compass compile` or `compass watch` to compile scss.
 * Compress template files into .zip folder called pyroFoundation5.zip  
 * Upload pyroFoundation5.zip to PryoCMS Themes under Ad-ons menu and activate.  
 
@@ -74,7 +74,14 @@ Any changes or updates to these files should be copied to `themeDir/js` also.
 
 ***Page Types:***  
 
->A couple PyroCMS page_types are included which are a good start to create a new layout. Copy code from files in `themeDir/views/page_types/` and paste into PyroCMS (Page Type / Layout) section, save and add all (new Fields) to the new Page Type.  
+>A couple PyroCMS page_types are included which are a good start to create a new layout.  
 
+ * Add new Page Type in PyroCMS and select Theme Layout from form menu.  
+ > Note: These layout files are in your `themeDir/views/layouts/` directory. These files are the same as the default.html and are copied and named for the corresponding page_type. Page_type (Fields) are associated with these files. Use default.html if you want to share fields between page_types.  
+  
+ * Copy html from a selected pagetype.html in `themeDir/views/page_types/` and paste into PyroCMS (Page Type / Layout) section and save.  
+ * Add all the new (Fields) ex. {{ section1_heading }} from pagetype.html file to the new Page Type you've created.
+ * Add a new (Page) and select the newly created page_type.
+ * Now you can add content to the fields you created. 
 
 
