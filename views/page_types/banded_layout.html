@@ -1,27 +1,36 @@
+<!-- Banner (Image) -->
 <div class="row">
-  
     <div class="large-12 columns">
-      {{ band_banner_image:img }}
+    <!-- Comment Out or Delete to Remove Placeholder Image -->
+      <p><img src="http://placehold.it/1200x300&amp;text=[banner img]"></p>
+    <!--  -->
+      <p>{{ band_banner_image:img }}</p>
       <hr />
     </div>
-
 </div>
 
+<!-- First Band (Start) -->
 <div class="row">
+
+  <!-- First Band Side -->
   <div class="large-4 columns">
-    {{ band1_image:img }}
-    {{ band1_side }}
+    
+  <!-- Comment Out or Delete to Remove Placeholder Image -->
+    <p><img src="http://placehold.it/325x200&amp;text=[img]"></p>
+  <!--  -->
+    <p>{{ band1_image:img }}</p>
+    <div class="panel">{{ band1_side }}</div>
   </div>
   
   <div class="large-8 columns">
     {{ band1_heading }}
     
     <div class="row">
-    
+    <!-- First Band Column 1 -->
       <div class="large-6 columns">
         {{ band1_col1 }}
       </div>
-    
+    <!-- First Band Column 2 -->
       <div class="large-6 columns">
         {{ band1_col2 }}
       </div>
@@ -29,13 +38,21 @@
   </div>
 </div>
 
+<!-- Second Band (Start) -->
 <div class="row">
+
+  <!-- Second Band Column 1 -->
   <div class="large-8 columns">
     <hr />
-    {{ band2_col1 }}
+    <div class="panel">{{ band2_col1 }}</div>
   </div>
+
+  <!-- Second Band Side -->
   <div class="large-4 columns">
   <hr>
-    {{ band2_image:img }}
+  <!-- Comment Out or Delete to Remove Placeholder Image -->
+    <p><img src="http://placehold.it/325x200&amp;text=[img]"></p>
+  <!--  -->
+    <p>{{ band2_image:img }}</p>
   </div>
 </div>
