@@ -2,9 +2,9 @@
 
 #PyroFoundation5  
 	
-`Version: (v1.5)  
+- Version: (v1.5)  
 - Author: antiksink  
-- Date: 01/01/2014`  
+- Date: 01/01/2014  
 
 >*PyroFoundation5* is a PyroCMS theme template built w/ Compass and Zurb Foundation 5. This theme is meant to serve as a base starting point for a new Foundation5 / PyroCms project.  
 
