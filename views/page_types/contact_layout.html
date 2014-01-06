@@ -1,0 +1,38 @@
+<!-- Contacts Page -->
+<div class="row">
+	<div class="large-9 columns">
+	{{ contacts_content }}
+
+		<div class="section-container">
+			<section class="section">
+			<hr />
+			<!-- Contact Details -->
+			{{ contacts_details }}
+
+				<!-- Contact Form -->
+				<div class="content">{{ contact:form name=&quot;text|required&quot; email=&quot;text|required|valid_email&quot; subject=&quot;dropdown|Sales|Support|Feedback|Other&quot; message=&quot;textarea&quot; company=&quot;text&quot; phone=&quot;text&quot; attachment=&quot;file|zip&quot; }}
+					
+					<div><label for="name">Name:</label>{{ name }}</div>
+
+					<div><label for="email">Email:</label>{{ email }}</div>
+
+					<div><label for="subject">Subject:</label>{{ subject }}</div>
+
+					<div><label for="message">Message:</label>{{ message }}</div>
+					<hr />
+
+					<div><label for="attachment">Attach a zip file:</label>{{ attachment }}</div>
+				
+				{{ /contact:form }}</div>	
+				<!-- /Contact Form -->
+			</section>
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div class="large-3 columns">
+	{{ contacts_sidebar}}
+	</div>
+	<!-- /Sidebar -->
+</div>
+<!-- /Contacts Page -->
