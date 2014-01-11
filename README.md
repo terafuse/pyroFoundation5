@@ -23,6 +23,9 @@
  - [https://github.com/zurb/foundation](https://github.com/zurb/foundation)  
  
 ---  
+
+> Note: rename config.rb.txt to config.rb before proceeding.  
+
 ## Instructions: Foundation Compass Set-up  
   
 **Follow the _Quikstart_ from the _Foundation 5 README.md_ below and apply for use with _pyroFoundation5_ theme template.**  
