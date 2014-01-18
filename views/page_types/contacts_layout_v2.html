@@ -1,0 +1,33 @@
+<!-- Contacts Content -->
+<div class="row">
+	<div class="large-6 columns">
+	<section class="content">
+	{{ contacts_content }}
+	</section>
+	</div>
+
+	<div class="large-6 columns">
+	<section class="content">
+		<!-- Contact Details -->
+		{{ contacts_details }}
+
+		<!-- Contact Form -->
+		{{ contact:form name=&quot;text|required&quot; phone=&quot;text&quot; email=&quot;text|required|valid_email&quot; subject=&quot;dropdown|Sales|Support|Feedback|Other&quot; message=&quot;textarea&quot; company=&quot;text&quot; phone=&quot;text&quot; attachment=&quot;file|zip&quot; }}
+					
+			<div><label for="name">Name:</label>{{ name }}</div>
+
+			<div><label for="email">Email:</label>{{ email }}</div>
+
+			<div><label for="email">Phone:</label>{{ phone }}</div>
+
+			<div><label for="message">Message:</label>{{ message }}</div>
+				
+			{{ /contact:form }}
+		<!-- /Contact Form -->
+	</section>
+
+	<section class="content">
+		{{ contacts_side }}
+	</section>
+	</div>
+</div>

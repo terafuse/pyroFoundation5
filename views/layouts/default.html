@@ -2,21 +2,25 @@
 {{ theme:partial name="head" }}
 <!-- /HTML Head -->
 
-
 <!-- Page Header -->
 {{ theme:partial name="header" }}
 <!-- /Page Header -->
 
-	<!-- Page Content -->
-	<section id="content" class="row">
-		<div class="large-12 columns">
+<!-- Banner (Image) -->
+<div class="row">
+  <div class="large-12 columns">
+	{{ theme:partial name="pagebanner" }}
+  </div>
+</div>
+<!-- /Banner (Image) -->
 
-		{{ template:body }}
-		
-		</div>
-	</section>
-	<!-- /Page Content -->
+<!-- Page Content -->
+<section id="content" class="row">
+	<div class="large-12 columns">
+	{{ template:body }}
+	</div>
+</section>
+<!-- /Page Content -->
 
-<!-- Page Footer -->
+<!-- Footer -->
 {{ theme:partial name="footer" }}
-<!-- /Page Footer

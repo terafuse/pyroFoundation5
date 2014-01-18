@@ -1,6 +1,6 @@
 <!-- Contacts Page -->
 <div class="row">
-	<div class="large-9 columns">
+	<div class="large-7 columns">
 	{{ contacts_content }}
 
 		<div class="section-container">
@@ -10,7 +10,7 @@
 			{{ contacts_details }}
 
 				<!-- Contact Form -->
-				<div class="content">{{ contact:form name=&quot;text|required&quot; email=&quot;text|required|valid_email&quot; subject=&quot;dropdown|Sales|Support|Feedback|Other&quot; message=&quot;textarea&quot; company=&quot;text&quot; phone=&quot;text&quot; attachment=&quot;file|zip&quot; }}
+				<div class="contact-form">{{ contact:form name=&quot;text|required&quot; email=&quot;text|required|valid_email&quot; subject=&quot;dropdown|Sales|Support|Feedback|Other&quot; message=&quot;textarea&quot; company=&quot;text&quot; phone=&quot;text&quot; attachment=&quot;file|zip&quot; }}
 					
 					<div><label for="name">Name:</label>{{ name }}</div>
 
@@ -29,9 +29,9 @@
 		</div>
 	</div>
 
-	<!-- Sidebar -->
-	<div class="large-3 columns">
-	{{ contacts_sidebar}}
+	<!-- Contacts Side -->
+	<div class="large-5 columns">
+	{{ contacts_side}}
 	</div>
 	<!-- /Sidebar -->
 </div>
