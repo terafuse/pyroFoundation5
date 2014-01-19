@@ -1,0 +1,35 @@
+
+#content {
+  -moz-box-sizing: border-box;
+  background-image: -moz-linear-gradient(center top , rgb(255, 255, 255) 0px, rgb(242, 245, 247) 99%);
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgb(232, 236, 239);
+}
+
+.page_banner {
+	box-shadow:rgba(0,0,0,0.5) 0px 1px 6px;
+	border: .2em solid white;
+	margin-top: 1em;
+}
+
+.nav-wrap {
+	border-bottom: 2px solid rgb(218, 214, 205);
+	border-top: 2px solid rgb(218, 214, 205);
+	padding-top: 2px;
+}
+
+#logo img {
+	width: 300px;
+}
+
+footer {
+	padding-bottom: 30px;
+}
+
+.contact-form {
+	padding: 10px 0 10px 0;
+}
+
+section .content {
+	padding: 1.5em;
+}
