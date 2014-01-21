@@ -30,6 +30,15 @@ footer {
 	padding: 10px 0 10px 0;
 }
 
-section .content {
+section.content {
 	padding: 1.5em;
+}
+
+section.post {
+    padding: 20px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(125, 125, 125);
+    font-size: 14px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
 }
