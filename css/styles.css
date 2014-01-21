@@ -12,14 +12,34 @@
 	margin-top: 1em;
 }
 
+p img {
+	box-shadow:rgba(0,0,0,0.5) 0px 1px 6px;
+	border: .2em solid white;
+	margin-top: 1em;
+}
+
 .nav-wrap {
-	border-bottom: 2px solid rgb(218, 214, 205);
-	border-top: 2px solid rgb(218, 214, 205);
+	border-bottom: 1px solid rgb(229, 229, 229);
+	border-top: 1px solid rgb(229, 229, 229);
 	padding-top: 2px;
 }
 
-#logo img {
-	width: 300px;
+ul.right {
+    margin-right: 20px;
+}
+
+.logo img {
+	width: 400px;
+}
+
+.logo h4 {
+    color: #13BACF;
+	padding: 1em;
+}
+
+.name h1{
+    color: #C48079;
+	padding: 0 4em;
 }
 
 footer {
