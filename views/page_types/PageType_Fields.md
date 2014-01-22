@@ -1,13 +1,5 @@
 ## Section PageType Fields
 
-_Header Banner Image_
-
-field name: Banner Image  
-syntax: {{ banner_image:img }}  
-type: Image  
-resize width: 1200 [keep ratio]  
-allow: jpg|jpeg|png|gif
-
 _Section 1_  
 
 field name: Section1 Heading  
@@ -47,15 +39,6 @@ type: Text Area [markdown]
 
 
 ## Banded PageType Fields  
-
-_Header Banner Image_
-
-field name: Banner Image  
-syntax: {{ banner_image:img }}  
-type: Image  
-resize width: 1200 [keep ratio]  
-allow: jpg|jpeg|png|gif  
-      
 
 _First Band_  
 
